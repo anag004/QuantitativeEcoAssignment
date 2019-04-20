@@ -1,0 +1,10 @@
+Shown is a scatter plot of Total investment and Gross savings (as a % of GDP) for various countries. We see that capitalist countries like the USA, France, UK lie towards the lower end of the graph. This is becaues of the social welfare and monetary policies in these countries. Interest rates are near zero, often overtaken by the inflation rate. This discourages savings and investment, leading to very low savings.
+
+China has a very high saving rate. This is due to the widening gap between the rich and the poor, meaning the rich need to spend less on goods and can put more money in the bank. Also, state spending has reduced in China, which means people need to save more to be able to support themselves financially in the future.
+
+The red line indicates the equation Investment = Savings. Interestingly, most countries lie near this line. This means, as expected, that money saved in the country, either with individuals or in banks is eventually invested back into the economy. 
+
+One exception to this is Bhutan, which lies far above the line. The total investment is much greater than the Gross savings in this country. This is reflected in the highly negative current account balance of the country (one of the most negative in the world) at around -20% of the GDP. 
+
+Contrast this with Germany, which lies below this line and has a significant current account surplus (8% of the GDP).
+

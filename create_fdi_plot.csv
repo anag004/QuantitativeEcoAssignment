@@ -1,0 +1,25 @@
+import sys
+import subprocess
+import matplotlib.pyplot as plt
+
+offset = 2013 - 58
+y1 = 1980
+y2 = 2013
+
+fdi=[]
+years=[]
+
+for y in range(y1, y2 + 1):
+	x = subprocess.check_output(['bash', 'getData.sh', sys.argv[1], str(y-offset)]).strip()[1:-1]
+	if len(x) > 3: 
+		fdi.append(float(x))
+		years.append(y)
+	
+plt.plot(years, fdi)
+plt.xlabel('Year')
+plt.ylabel('FDI (% of GDP)')
+plt.title('FDI v/s time for ' + sys.argv[2])
+plt.savefig(sys.argv[2] + "_fdi.eps")
+
+if (len(sys.argv) != 4 or sys.argv[3] == True):
+	plt.show()
